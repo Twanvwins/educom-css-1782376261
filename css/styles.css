@@ -62,3 +62,19 @@ a {
     font-size: 32px;
     color: #CCC;
 }
+
+/** exercise 7 */
+.site-font {
+    font-family: Arial, comic, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+}
