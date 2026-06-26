@@ -65,7 +65,7 @@ a {
 
 /** exercise 7 */
 .site-font {
-    font-family: Arial, comic, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -77,4 +77,25 @@ a {
 .site-square {
     width: 200px;
     height: 200px;
+}
+
+/** exercise 8 */
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
