@@ -5,7 +5,7 @@
  * @version 1.0
  *
  */
-
+/** exercise 3 */
 .red-square {
     width: 80px;
     height: 80px;
@@ -27,11 +27,11 @@
     background-color: rgb(0, 0, 255);
     display: inline-block;
 }
-
+/** exercise 4 */
 #special {
     border: 4px solid #000;
 }
-
+/** exercise 5 */
 .cascading-parent {
     font-weight: bold;
     color: #FFF;
@@ -46,4 +46,19 @@
 
 .override {
     color: #0F5 !important;
+}
+
+/** exercise 6 */
+a {
+    font-size: 22px;
+    color: #F0F;
+} 
+
+.cascading-parent h2 {
+    color: #FD0;
+}
+
+.cascading-parent a {
+    font-size: 32px;
+    color: #CCC;
 }
