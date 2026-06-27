@@ -99,3 +99,29 @@ a:hover {
 a:active {
   color: blue;
 }
+
+/* exercise 9 */
+
+:root {
+    --font: Arial, sans-serif;
+
+    --primary-color: steelblue;
+    --text-color: white;
+
+    --card-width: 250px;
+    --padding: 20px;
+    --margin: 20px;
+
+    --border-radius: 10px;
+}
+
+.card {
+    width: var(--card-width);
+    padding: var(--padding);
+    margin: var(--margin);
+
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    
+    border-radius: var(--border-radius);
+}
