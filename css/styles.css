@@ -122,6 +122,73 @@ a:active {
 
     background-color: var(--primary-color);
     color: var(--text-color);
-    
+
     border-radius: var(--border-radius);
+}
+
+/* Exercise 10 */
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    
+    /* ROUNDING THE CORNERS */
+    border-radius: 10px;
+    
+    /* CREATED WITH THE SHADOW GENERATOR */
+    -webkit-box-shadow: 13px 25px 11px 10px rgba(0,0,0,0.43);
+    -moz-box-shadow: 13px 25px 11px 10px rgba(0,0,0,0.43);
+    box-shadow: 13px 25px 11px 10px rgba(0,0,0,0.43);
+
+    /* Let's get rid of the underline */
+    text-decoration: none;
+
+    /* Transition effect */
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    /* Let's get rid of the underline */
+    text-decoration: none;
+}
+
+:root {
+    --button-bg: rgb(0, 115, 255);
+    --button-text: white;
+    --button-hover: rgb(0, 139, 16);
+}
+.button-container-2 a {
+    display: inline-block;
+    padding: 10px 20px;
+
+    background-color: var(--button-bg);
+    color: var(--button-text);
+
+    border-radius: 10px;
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+.button-container-2 a:hover {
+    background-color: var(--button-hover);
+}
+
+.button-container-3 a {
+    display: inline-block;
+    padding: 10px 20px;
+
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+
+    border-radius: 10px;
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+.button-container-3 a:hover {
+    opacity: 0.8;
 }
