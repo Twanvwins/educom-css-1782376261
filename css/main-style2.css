@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFF;
+    color: #000;
+    padding: 20px;
+}
+
+/* CONTENT SECTION */
+.content {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.block {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 32%;
+    height: 220px;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.block:hover {
+    border: 0px solid transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    filter: brightness(70%) grayscale(100%);
+    transform: scale(1.02);
+}
+
+.rome {
+    background-image: url("https://static.checkiday.com/img/1200/italy-2478805.avif");
+    filter: grayscale(100%);
+}
+
+.brussels {
+    background-image: url("https://www.swecobelgium.be/wp-content/uploads/sites/12/2025/07/jubelpark-00-AdobeStock_61875328-1680x560.jpeg");
+    filter: grayscale(100%);
+}
+
+.newyork {
+    background-image: url("https://m.media-amazon.com/images/I/719DxGbB7IL._AC_UF894,1000_QL80_.jpg");
+    filter: grayscale(100%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1c1c1;
+    color: #FFF;
+    padding: 40px;
+}
