@@ -13,8 +13,44 @@ html, body {
     padding: 20px;
 }
 
+/* MENU SECTION */
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.menu-trigger {
+    cursor: pointer;
+    position: relative
+    transition: all 0.4s ease;
+    z-index: 10000 !important;
+}
+
+.menu-trigger:hover {
+}
+
+.menu-trigger:hover .dropdown {
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    height: 600px;
+    background-color: #FDF;
+    transition: all 0.4s ease;
+    padding: 40px;
+    z-index: 9998;
+}
+
 /* CONTENT SECTION */
 .content {
+    position: relative;
+    z-index: 1;
     display: flex;
     background-color: #fff;
     justify-content: center;
